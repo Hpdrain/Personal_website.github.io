@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/breakpoints.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">  
+    <!-- Swiper  -->
+    <script src="javascript/swiper-bundle.min.js"></script> 
+    <title>Document</title>
+</head>
+<body>
+               <!-----------------------------Scroll top----------------------------->
+        <div id="progress">
+            <span id="progress-value"><i class="ri-arrow-up-double-line"></i></span>
+        </div>
+
+                     <!----------------------------- Navigation_bar ----------------------------->
+    <header id="header">
+        <a href="#home" class="logo"><i class="ri-infinity-line"></i>Raffy</i></a>
+        <div id="toggle"></div>
+        <div id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutus">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hero1">Projects</a></li>
+                <li><a href="#contactUs">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+                      <!----------------------------- home ----------------------------->
+    <section id="home" class="hero">
+    <div id="particles-js"></div>
+        <img class="hero__img"  src="img/hero__logo.png" alt="Profile picture">
+        <h2 class="hero__subtitle">Hi, I'm Raffy🤝</h2>
+        <h1 class="hero__title">FRONT-END<br>WEB DEVELOPER</h1>
+        <p class="hero__description">"Welcome to my website, where we strive to provide you with an exceptional <strong> online experience!</strong>"</p>
+        <a class="hero__btn" download href="img/Resumekoto.pdf">Download Cv</a>
+    </section>
+
+                         <!----------------------------- about ----------------------------->
+    <div class="about" id="aboutus">
+    <div class="project__titles">About Us</div>
+        <div class="about-img">
+            <img src="img/hero__logo.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="about-content">
+            <h3>Frontend & Web Developer</h3>
+            <p>Hello there! I'm <strong> Raffy L. Veloria</strong>, a passionate and motivated
+                 Computer Science graduate with a strong desire to make a
+                  positive impact in the world through technology</p>
+                 <a class="hero__btn">Read More</a>
+        </div>
+    </div>
+
+                 <!----------------------------- skills ----------------------------->             
+        <div class="skills" id="skills">
+            <div id="particles-js"></div>
+        <div class="project__titles">Skills</div>
+        <div class="project__subtitles">Technical & Professional</div>
+        <div class="row">
+            <div class="col">
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">HTML</div>
+                        <div class="progress-bar" value="95">
+                            <div class="progress-line" style="max-width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">CSS</div>
+                        <div class="progress-bar" value="95">
+                            <div class="progress-line" style="max-width: 95%"></div>
+                        </div>
+                    </div>  
+                    <div class="skill">
+                        <div class="subject">JAVASCRIPT</div>
+                        <div class="progress-bar" value="85">
+                            <div class="progress-line" style="max-width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">PHP</div>
+                        <div class="progress-bar" value="80">
+                            <div class="progress-line" style="max-width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">CREATIVITY</div>
+                        <div class="progress-bar" value="95">
+                            <div class="progress-line" style="max-width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">TEAM WORK</div>
+                        <div class="progress-bar" value="95">
+                            <div class="progress-line" style="max-width: 95%"></div>
+                        </div>
+                    </div>  
+                    <div class="skill">
+                        <div class="subject">PROBLEM SOLVING</div>
+                        <div class="progress-bar" value="90">
+                            <div class="progress-line" style="max-width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">RESPONSIVE DESIGN</div>
+                        <div class="progress-bar" value="95">
+                            <div class="progress-line" style="max-width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                 <!----------------------------- Project ----------------------------->
+    <div class="projects" id="hero1">
+    <div class="project__titles">Portfolio</div>
+        <div class="project__subtitles">My Recent Work</div>
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide" data-tilt>
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        
+                        <div class="card-image">
+                            <img src="img/tcu.PNG" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">TCU REG</h2>
+                        <p class="description">Development of Web Based Online Enrollment Management System for Taguig City University using Advanced Encryptipn Standard Algorithm</p>
+                        <button class="buttons"><a href="http://localhost/i-enroll/home.php" target="_blank">Visit</a></button>
+                    </div>
+                </div>
+                <div class="card swiper-slide" data-tilt>
+                    <div class="image-content">
+                        <span class="overlay1"></span>
+
+                        <div class="card-image">
+                            <img src="img/fedcenter.PNG" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">FedCenter</h2>
+                        <p class="description">Developing of FedCenter Company Profile Using Wordpress via collaboration of the IT team  </p>
+                        <button class="buttons"><a href="https://fedcenter.org" target="_blank">Visit</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+                <!----------------------------- ContactUS ----------------------------->
+    <div id="contactUs" class="contactUs">
+    <div class="project__titles">Contact</div>
+        <div class="project__subtitles">ASK ME QUESTION</div>
+    
+        <form onsubmit="Send(); reset(); return false;">
+    <div class="input-box">
+        <input type="text" id="Name" placeholder="Full Name">
+        <input type="text" id="Email" placeholder="Email Address">
+    </div>
+    <div class="input-box">
+        <input type="text" id="Contact" placeholder="Mobile Number">
+        <input type="text" id="subject" placeholder="Email Subject">
+    </div>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+</form>
+    </div>
+
+            <!----------------------------- Footer----------------------------->
+    <div class="footer">
+        <div class="footer-content">
+            <a href="#home" class="footer-logo"><i class="ri-infinity-line"></i>Raffy</i></a>
+            <p>© Personal Website 2023.</p>
+            <div class="icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-viber"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+            <div class="footer-content">
+                <h4>Quick LInks</h4>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hero1">Projects</a></li>
+                <li><a href="#contactUs">Contacts</a></li>
+            </div>
+            <div class="footer-content">
+                <h4>Services</h4>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Web Developer</a></li>
+            </div>
+            <div class="footer-content">
+                <h4>Courses</h4>
+                <li><a href="https://www.w3schools.com/">HTML & CSS</a></li>
+                <li><a href="https://www.w3schools.com/js/">Javascript</a></li>
+                <li><a href="https://www.php.net/">PHP</a></li>
+                <li><a href="https://tailwindcss.com/">TailwindCss</a></li>
+            </div>
+        </div>
+
+     <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- scroll top  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Connection for JS file  -->
+    <script src="javascript/script.js"></script>
+    
+    <!-- Particles -->
+    <script src="javascript/particles.js"></script>
+    <script src="javascript/app.js"></script>
+
+     <!-- titl vanilla in card  -->
+    <script src="javascript/vanilla-tilt.js"></script>
+
+    <!-- Email Receiver  -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
